@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkMate Hero – Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="WorkMate Hero is a full‑service digital marketing agency delivering SEO, PPC, content marketing, social media and email campaigns that help your business grow.">
+</head>
+<body>
+    <!-- Header and navigation -->
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">WorkMate Hero</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content container">
+            <div class="hero-text">
+                <h2>Your Partner for Digital Growth</h2>
+                <p>At WorkMate Hero, we craft data‑driven marketing strategies that turn your online presence into measurable results.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero.png" alt="Abstract digital marketing illustration showing network connections and analytics"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h3>About WorkMate Hero</h3>
+            <p>
+                WorkMate Hero is a full‑service digital marketing agency based in the Philippines. 
+                Our mission is to help businesses of all sizes succeed online through bespoke strategies 
+                grounded in data and creativity. We believe in transparency, collaboration and delivering 
+                measurable results for our clients. Whether you need to boost your organic traffic, manage 
+                paid campaigns or build a compelling brand presence on social media, our team of experts is here to help.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h3>Our Services</h3>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h4>Search Engine Optimization (SEO)</h4>
+                    <p>
+                        Increase your visibility and attract organic traffic with our comprehensive SEO services, 
+                        including keyword research, on‑page optimization, technical SEO and link building.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h4>Pay‑Per‑Click (PPC)</h4>
+                    <p>
+                        Drive immediate results through targeted advertising campaigns on Google Ads, Facebook, 
+                        and other platforms. We optimize bids, ad creatives and landing pages to maximize ROI.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h4>Content &amp; Email Marketing</h4>
+                    <p>
+                        Engage your audience with high‑quality content, including blog posts, newsletters and 
+                        email campaigns. Our strategies nurture leads and build long‑term relationships.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h4>Social Media Management</h4>
+                    <p>
+                        Grow your community and build your brand on social channels. We create 
+                        compelling content and manage campaigns across Facebook, Instagram, LinkedIn and more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h3>Our Work</h3>
+            <p>
+                We’re proud of the results we achieve for our clients. Here are a few highlights from our recent projects.
+            </p>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <h4>Case Study 1</h4>
+                    <p>A B2B SaaS company saw a 120% increase in organic traffic after implementing our SEO strategy.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h4>Case Study 2</h4>
+                    <p>Our PPC campaign generated 50% more leads for an e‑commerce brand while reducing cost per acquisition.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h4>Case Study 3</h4>
+                    <p>A local retail shop grew its social following by 300% through our social media management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3>Get in Touch</h3>
+            <p>
+                Ready to take your digital presence to the next level? Reach out to us for a free consultation. 
+                We'll collaborate to craft a custom plan that meets your business goals.
+            </p>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> WorkMate Hero. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Update footer year automatically
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
